@@ -5,5 +5,6 @@ def prime_number(array)
     return true
   else
     return false
+  i +=1
   end
 end

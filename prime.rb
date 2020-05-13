@@ -3,12 +3,7 @@ def prime_number(array)
   i = 0
   if array.prime? {|i| i>i.length}
     return true
-  else 
+  else
     return false
   end
 end
-
-    
-    
-  
-  

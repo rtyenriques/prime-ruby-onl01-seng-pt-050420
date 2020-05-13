@@ -1,10 +1,10 @@
 # Add  code here!
-def prime_number(array)
-  i = 0
-  if array.prime? {|i| i>i.length}
-    return true
-  else
-    return false
-  i +=1
+def is_prime n
+ for d in 2..(n - 1)
+  if (n % d) == 0
+   return false
   end
+ end
+
+ true
 end

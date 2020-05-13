@@ -10,3 +10,4 @@ def prime?(number)
     false
   end
 end
+ prime?(10)
